@@ -1,0 +1,46 @@
+﻿.wrapper
+{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    width:100%;
+    min-height:100%;
+    padding: 20px;
+}
+
+#formcontent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align:center;
+}
+.bg-pastel-blue {
+    background-color: #c3d7e6; /* Color azul pastel */
+}
+
+.bg-pastel-yellow {
+    background-color: #f9e79f; /* Color amarillo pastel */
+}
+
+.bg-pastel-pink {
+    background-color: #ddccd6; /* Color rosa pastel */
+}
+
+.bg-pastel-green {
+    background-color: #d5e8d4; /* Color verde pastel */
+}
+
+.is-invalid {
+    border-color: red;
+}
+.custom-btn {
+    background-color: #c3d7e6;
+}
